@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Murecho:100,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+@import url(https://fonts.googleapis.com/css?family=Anton:regular);
+body{
+    font-family: "Lobster",Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 46px;
+    font-style: italic;
+    color:darkgreen;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+img{
+    width: 250px;
+    padding: 0px 30px;
+}
+.quotes-1 p{
+    font-family: "Murecho",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color:dimgrey;
+    max-width: 500px;
+    margin:0px auto;
+}
+.biography{
+    color:fuchsia;
+    padding: 20px 30px 40px 50px;
+}
+.quotes-2 p{
+    font-family: "Murecho",Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: indigo;
+    margin: 0px 0px 0px auto;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+}
+.career{
+    color:olive;
+    margin: 30px -40px;
+    max-height: 450px;
+    overflow: visible;
+}
+.book{
+    color:sienna;
+    max-width: 400px;
+    height: 80px;
+    padding: 25px 40px;
+    overflow: hidden;
+}
+.works{
+    color: rgb(4, 0, 255);
+    font-size: 30px;
+    padding: 80px 70px 50px;
+    margin: 50px 80px;
+}
+li{
+    display: inline-block;
+}
+.block, .line{
+    font-family: "Anton",Arial, Helvetica, sans-serif;
+    color:tomato;
+    font-size: 10px;
+}
+.block{
+    padding: 50px;
+    width: 350px;
+    height: 180px;
+    overflow: hidden;
+    text-decoration: line-through;
+}
+.block p{
+    margin: 20px;
+}
+.line{
+    display: block;
+    overflow: scroll;
+    width: 50px;
+    margin: 10px -5px;
+}
